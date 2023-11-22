@@ -1,6 +1,6 @@
 # Alura-9-semana
 
-## dependencias 
+## Dependencias 
 
 NodeJS 18.0 
 

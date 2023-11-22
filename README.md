@@ -11,9 +11,10 @@ requer biblioteca  Chail  de NodeJS
 
 Comando que instala pode ser no Terminal(Linux/Mac) ou equivalente, Powershell(windows),Prompt de Comando,Git Bash,ou equivalente do seu sistema 
 colinha do comando: 
-`````````````
-npm i chalk
-`````````````
+````````````
+npm install chalk
 
-referencias :
+````````````
+
+referências :
 https://www.npmjs.com/package/chalk?activeTab=code

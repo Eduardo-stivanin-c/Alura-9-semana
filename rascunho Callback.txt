@@ -8,3 +8,5 @@ nome:"mario"
 //função 
 }
 const dados=pegaDados();
+
+console.log(dados);

@@ -1,1 +1,7 @@
-funcion
+function pegaDados(funcao) {
+//faz um ajax da vida
+
+const  dados={
+nome:"mario"
+    
+}

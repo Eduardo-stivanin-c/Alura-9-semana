@@ -1,0 +1,26 @@
+//rode em http://latentflip.com/loupe/
+function pegaDados(funcao) {
+//faz um ajax da vida
+setTimeout(function timeout (){
+var  dados={
+nome:"mario"
+    
+}
+
+    
+},
+//função(dados)
+2 * 1000);
+
+}
+
+
+pegaDados(function (dados) 
+{
+console.log("Dados: " ,  dados);
+});
+
+console.log('Log 01')
+console.log('Log 02')
+console.log('Log 03')
+console.log('Log 04')

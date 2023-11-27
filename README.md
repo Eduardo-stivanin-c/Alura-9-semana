@@ -9,7 +9,7 @@ requer NVM  para Windows ou pra seu sistmea operacional  (opcional )
 requer biblioteca  Chail  de NodeJS   
 
 Comando que instala pode ser no Terminal(Linux/Mac) ou equivalente, Powershell(windows),Prompt de Comando,Git Bash,ou equivalente do seu sistema 
-colinha do comando  biblioteca Chail versão:5.0.1 
+colinha do comando  biblioteca Chalk versão:5.0.1 
 ````````````
 npm install chalk@5.0.1 --save-exact
 
@@ -22,5 +22,7 @@ DS_Store -arquivo de configurações da pasta d oMAcinstosh
 desktop.ini -arquvio de configuração de pasta
 
 referências :
+
 https://www.npmjs.com/package/chalk?activeTab=code
+
 https://cursos.alura.com.br/course/nodejs-criando-primeira-biblioteca/task/112035

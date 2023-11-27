@@ -5,3 +5,6 @@ const  dados={
 nome:"mario"
     
 }
+//função 
+}
+const dados=pegaDados()

@@ -7,8 +7,14 @@ nome:"mario"
 }
 //função (dados)
 }
-pegaDados(function(dados));
+pegaDados(function(dados){
+
+
+
 
 console.log("Dados",dados);
+
+});
+
 
 

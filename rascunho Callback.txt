@@ -1,7 +1,7 @@
 function pegaDados(funcao) {
 //faz um ajax da vida
 
-const  dados={
+var  dados={
 nome:"mario"
     
 }
@@ -14,7 +14,12 @@ pegaDados(function(dados){
 
 console.log("Dados",dados);
 
+
 });
+
+console.log('Log 1')
+
+console.log('Log 2')
 
 
 

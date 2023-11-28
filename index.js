@@ -15,8 +15,8 @@ function extraiTexto(texto) {
     const regex=/\[([^[\]]*?)\]\((https?:\/\/[^\s?#.].[^\s]*)\)/gm;
 
 const capturas=regex.exec(texto);
-console.log(capturas);
 
+console.log(capturas);
 
 }
 extraiTexto(textoTeste);

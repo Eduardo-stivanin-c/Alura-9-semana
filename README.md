@@ -25,4 +25,5 @@ referências :
 
 https://www.npmjs.com/package/chalk?activeTab=code
 
-https://cursos.alura.com.br/course/nodejs-criando-primeira-biblioteca/task/112035
+https://cursos.alura.com.br/course/nodejs-criando-primeira-biblioteca/task/112035# Nome do projeto 
+ 

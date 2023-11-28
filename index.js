@@ -14,10 +14,23 @@ import chalk from "chalk";
 
 function trataErro(erro) {
     //trando o errosnatela não sei se tem ahaver com psegurança contra ckcekr os ou não 
+    console.log(erro)
     throw new Error(chalk.red(erro.code,'não há arquivos no diretório'));
 }
 
-function pegaArquivo(caminhoDoArquivo){
+//promise com then
+
+//asyny/awaitn
+ function pegaArquivo(){
+    const encoding='utf-8';
+    const  texto=fs.promises.readFile(caminhodoArquivo,encoding)
+    fs.promises}
+
+
+
+
+
+/*function pegaArquivo(caminhoDoArquivo){
     const encoding='utf-8';
     //função assincorno é qaquele que não paa tudoatesperadno uma resposta j´´a asincornoma sim
     fs.promises
@@ -25,8 +38,7 @@ function pegaArquivo(caminhoDoArquivo){
     .then((texto) => console.log(chalk.green(texto)))
     .catch(trataErro)
 
-}
-
+}*/
 
 
 

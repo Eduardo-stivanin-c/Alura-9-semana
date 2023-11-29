@@ -1,0 +1,7 @@
+expressão Regular
+/https?:\/\/[^\s$.?#].[^\s\)]*/gm
+
+texto pesquisado 
+https://www.dominio.com.br/
+http://www.outrodominio.com.br/recurso/recurso.
+teste

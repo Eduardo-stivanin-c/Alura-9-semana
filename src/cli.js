@@ -6,7 +6,7 @@ import chalk from "chalk";
 import fs from  'fs';
 
 import pegaArquivo from "./index.js";
-import { log } from "console";
+//import { log } from "console";
  const caminho=process.argv;
  //o primiero camnihoa apontoa prra 1 comanenste do Nojes Js e o segubdo aponta pra este aquivo
 
@@ -31,4 +31,4 @@ console.log(arquivos);
  }
  
 
-processaTexto(caminho);
+await processaTexto(caminho);

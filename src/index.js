@@ -91,11 +91,6 @@ export default pegaArquivo;
     )
 
 }*/
-
-
-//\[[^[]*?]\]
-
-// 
 /*
 console.log(chalk.blue('olá mundo'));
 console.log("olá mundo");

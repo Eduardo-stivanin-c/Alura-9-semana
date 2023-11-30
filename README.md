@@ -2,9 +2,30 @@
 
 ## Dependencias 
 
-NodeJS 18.0 
+NodeJS 18.7.0(exatamente pode dar erros em versões posterioeres ou anteriores)
 
-requer NVM  para Windows ou pra seu sistmea operacional  (opcional )
+requer NVM(Node Version Manage)  para Windows ou pra seu sistema operacional  (opcional )
+
+
+se vc estiver no Windows (se não encontrar a do seu sistema pergunta para as  AIs)
+https://nodejs.org/dist/v18.7.0/node-v18.7.0-x64.msi
+https://nodejs.org/dist/v18.7.0/node-v18.7.0-x86.msi
+
+-marque o 'install a adicional tool '  na instalação  do NOde JS
+
+
+Macintsoh
+
+https://nodejs.org/dist/v18.7.0/node-v18.7.0.pkg
+
+-marque o 'install a adicional tool '  na instalação  do NOde JS
+
+ou pelo dica NVM tem pra Windows  também 
+Windows ,Macitosh e outros sistemas operacionais
+
+````````````
+nvm install v18.7.0
+````````````
 
 requer biblioteca  Chail  de NodeJS   
 
@@ -16,6 +37,7 @@ npm install chalk@5.0.1 --save-exact
 
 ````````````
 
+
 -Calma que bibliotecas da minha biblioteca serão ignoradoas na hora do backup do Github porque o gitignore manda 
 arquivos  e pastas ignorados(as) 
 node_modules
@@ -25,7 +47,6 @@ desktop.ini -arquivo de configuração de pasta
 referências :
 
 https://www.npmjs.com/package/chalk?activeTab=code
-
 https://cursos.alura.com.br/course/nodejs-criando-primeira-biblioteca/task/112035# 
  
  

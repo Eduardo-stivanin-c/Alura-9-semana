@@ -21,10 +21,14 @@ async function processaTexto(argumentos) {
     fs.lstatSync(caminho);
 } catch (erro) {
     if (erro.code ==='ENOENT') {
-        console.log('Arquivo ou diretorio inexitente');
+        console.log('Arquivo ou diretorio não existe');
         return
     } 
 }
+
+
+
+
     if (fs.lstatSync(caminho).isFile()) {
         const resultado = await pegaArquivo(argumentos[2]);
         imprimeLista(resultado);

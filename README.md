@@ -27,6 +27,14 @@ Windows ,Macitosh e outros sistemas operacionais
 nvm install v18.7.0
 ````````````
 
+-Conguranrdo o arquivo cli
+#apelido pra src/cli.js
+````````````
+
+npm run cli
+
+````````````
+
 requer biblioteca  Chail  de NodeJS   
 
 Comando que instala pode ser no Terminal(Linux/Mac) ou equivalente, Powershell(windows),Prompt de Comando(Windows),Git Bash(app) ,ou equivalente do seu sistema 

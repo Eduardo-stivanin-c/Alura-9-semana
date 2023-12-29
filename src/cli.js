@@ -7,8 +7,11 @@ import pegaArquivo from './index.js';
 const caminho = process.argv;
 
 function imprimeLista(resultado,identificador='') {
-  console.log(chalk.yellow('lista de links'), resultado)
- console.log(chalk.black.bgGreen(resultado,identificador))
+  console.log(
+    chalk.yellow('lista de links'),
+    chalk.black.bgGreen(identificador),
+    resultado);
+// console.log(chalk.black.bgGreen(resultado,identificador))
 //}
 //texto preto grifado de verde
 
@@ -31,6 +34,8 @@ async function processaTexto(argumentos) {
 
     if (fs.lstatSync(caminho).isFile()) {
         const resultado = await pegaArquivo(argumentos[2]);
+        const valida=argumentos[3]
+//console.log(valida)
         imprimeLista(resultado);
     } else if (fs.lstatSync(caminho).isDirectory()) {
         const arquivos = await fs.promises.readdir(caminho)

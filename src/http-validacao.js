@@ -8,8 +8,11 @@ return arryLinks.map((objetoLink) => Object.values(objetoLink).join());
 }
 
 //checa status se foir iencontrad ,ou naçao ,etc
-function checaStatus(listaURLs) {
-    
+async function checaStatus(listaURLs) {
+    listaURLs.map(async (url) => {
+        const response= await  fetch(url)
+        return response.status
+    })
 }
 
 
@@ -17,10 +20,15 @@ function checaStatus(listaURLs) {
 
 //valida ção comandoa cli  caminho --valida
 export function listaValidada(listaDeLinks) {
-    return extraiLink(listaDeLinks);
+   const links= extraiLink(listaDeLinks);
+   const status=checaStatus(links);
+   console.log(status);
+   return status;
 }
 
+
 //chamdno recuros de rerceiros do site do Node JS
+//pedaço de coidogo do site do Node JS
 /*const res =await  fetch('https://nodejs.org/api/documentation.json');
 if (res.ok) {
     const data=await res.json();

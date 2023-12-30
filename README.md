@@ -13,14 +13,14 @@ https://nodejs.org/dist/v18.7.0/node-v18.7.0-x64.
 *86 bits
 https://nodejs.org/dist/v18.7.0/node-v18.7.0-x86.msi
 
-- marque o 'install a adicional tool '  na instalação  do NOde JS
+- marque o 'install a adicional tool '  na instalação  do Node JS
 
 
 Macintsoh
 
 https://nodejs.org/dist/v18.7.0/node-v18.7.0.pkg
 
--marque o 'install a adicional tool '  na instalação  do NOde JS
+- marque o 'install a adicional tool '  na instalação  do Node JS
 
 ou pelo dica NVM tem pra Windows  também 
 Windows ,Macitosh e outros sistemas operacionais
@@ -56,7 +56,7 @@ desktop.ini -arquivo de configuração de pasta
 
 referências :
 
-https://www.npmjs.com/package/chalk?activeTab=code
-https://cursos.alura.com.br/course/nodejs-criando-primeira-biblioteca/task/112035# 
+- https://www.npmjs.com/package/chalk?activeTab=code
+- https://cursos.alura.com.br/course/nodejs-criando-primeira-biblioteca/task/112035# 
  
  

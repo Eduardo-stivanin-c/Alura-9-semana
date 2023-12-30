@@ -9,7 +9,8 @@ requer NVM(Node Version Manage)  para Windows ou pra seu sistema operacional  (o
 
 se vc estiver no Windows (se não encontrar a do seu sistema pergunta para as  AIs)
 https://nodejs.org/dist/v18.7.0/node-v18.7.0-x64.
-<br>
+
+*86 bits
 https://nodejs.org/dist/v18.7.0/node-v18.7.0-x86.msi
 
 -marque o 'install a adicional tool '  na instalação  do NOde JS

@@ -13,7 +13,7 @@ https://nodejs.org/dist/v18.7.0/node-v18.7.0-x64.
 *86 bits
 https://nodejs.org/dist/v18.7.0/node-v18.7.0-x86.msi
 
--marque o 'install a adicional tool '  na instalação  do NOde JS
+- marque o 'install a adicional tool '  na instalação  do NOde JS
 
 
 Macintsoh

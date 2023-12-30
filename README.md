@@ -8,9 +8,9 @@ requer NVM(Node Version Manage)  para Windows ou pra seu sistema operacional  (o
 
 
 se vc estiver no Windows (se não encontrar a do seu sistema pergunta para as  AIs)
-https://nodejs.org/dist/v18.7.0/node-v18.7.0-x64.
+64 bits https://nodejs.org/dist/v18.7.0/node-v18.7.0-x64.
 
-*86 bits
+86 bits
 https://nodejs.org/dist/v18.7.0/node-v18.7.0-x86.msi
 
 - marque o 'install a adicional tool '  na instalação  do Node JS
@@ -25,34 +25,39 @@ https://nodejs.org/dist/v18.7.0/node-v18.7.0.pkg
 ou pelo dica NVM tem pra Windows  também 
 Windows ,Macitosh e outros sistemas operacionais
 
+
+instalando e usando  Node JS na versão certa
+
 ````````````
 nvm install v18.7.0
-````````````
 
--Conguranrdo o arquivo cli
-#apelido pra src/cli.js
-````````````
-
-npm run cli
-
+nvm use v18.7.0
 ````````````
 
 requer biblioteca  Chail  de NodeJS   
 
 Comando que instala pode ser no Terminal(Linux/Mac) ou equivalente, Powershell(windows),Prompt de Comando(Windows),Git Bash(app) ,ou equivalente do seu sistema 
 colinha do comando  biblioteca Chalk versão:5.0.1 
-
 ````````````
 npm install chalk@5.0.1 --save-exact
 
 ````````````
 
+ rodando o arquivo cli
+ apelido pra src/cli.js
 
--Calma que bibliotecas da minha biblioteca serão ignoradoas na hora do backup do Github porque o gitignore manda 
-arquivos  e pastas ignorados(as) 
+````````````
+
+npm run cli
+
+````````````
+
+-Calma que bibliotecas da minha biblioteca serão ignoradas na hora do backup do Github porque o gitignore manda arquivos  e pastas ignorados(as) 
+
 node_modules
-DS_Store -arquivo de configurações da pasta d oMAcinstosh
-desktop.ini -arquivo de configuração de pasta
+DS_Store -arquivo de configurações da pasta do MAcinstosh
+
+desktop.ini -arquivo de configuração de pasta do Winwdows
 
 referências :
 

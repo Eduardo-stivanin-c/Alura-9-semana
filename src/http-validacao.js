@@ -21,9 +21,7 @@ async function checaStatus(listaURLs) {
 //valida ção comandoa cli  caminho --valida
 export function listaValidada(listaDeLinks) {
    const links= extraiLink(listaDeLinks);
-   const status=checaStatus(links);
-   console.log(status);
-   return status;
+   
 }
 
 

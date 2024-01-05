@@ -3,16 +3,16 @@
 import chalk from 'chalk';
 import fs from 'fs';
 import pegaArquivo from './index.js';
-import { listaValidada } from './http-validacao.js';
+import  listaValidada  from './http-validacao.js';
 const caminho = process.argv;
 
-function imprimeLista(valida,resultado,identificador='') {
+async function imprimeLista(valida,resultado,identificador='') {
     if (valida) {
         
         console.log(
           chalk.yellow('lista validada'),
           chalk.black.bgGreen(identificador),
-         listaValidada(resultado)
+       await  listaValidada(resultado)
          );
     }
 else{
@@ -36,7 +36,7 @@ async function processaTexto(argumentos) {
 } catch (erro) {
     if (erro.code ==='ENOENT') {
         console.log('Arquivo ou diretorio não existe');
-        return
+        return;
     } 
 }
 
@@ -45,15 +45,15 @@ async function processaTexto(argumentos) {
 
     if (fs.lstatSync(caminho).isFile()) {
         const resultado = await pegaArquivo(argumentos[2]);
-        const valida=argumentos[3]
+        const valida=argumentos[3];
 //console.log(valida)
         imprimeLista(valida,resultado);
     } else if (fs.lstatSync(caminho).isDirectory()) {
-        const arquivos = await fs.promises.readdir(caminho)
+        const arquivos = await fs.promises.readdir(caminho);
             arquivos.forEach(async (nomeDeArquivo) => {
-                const lista = await pegaArquivo(`${caminho}/${nomeDeArquivo}`)
+                const lista = await pegaArquivo(`${caminho}/${nomeDeArquivo}`);
                 imprimeLista(valida,lista,nomeDeArquivo);
-            })
+            });
     }
 }
  //o primeiro camihoa apontoa pra 1 comanenste do Noje Js e o segudo aponta pra este aquivo
@@ -62,4 +62,6 @@ async function processaTexto(argumentos) {
  
  //exige texto inserido comoa caminho no comando 
 
+//await 
+//se der ruinm volta esta lista ait processTexto
 await processaTexto(caminho);
